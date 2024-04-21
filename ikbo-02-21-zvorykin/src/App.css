@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html,
+body {
+	margin: auto;
+	padding: auto;
+	min-height: 100%;
+	height: 100%;
+	background-attachment: fixed;
+  	background-color: rgb(255, 255, 255);
+	visibility: visible;
+	opacity: 1;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: calc(100vh);
+	width:100%;
+}
+
+.mainInterface {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 100%;
+}
+
+.mainInterface > :nth-child(1) {
+	flex: 3;
+}
+
+.mainInterface > :nth-child(2) {
+	flex: 5;
+}
+
+.mainInterface > :nth-child(3) {
+	flex: 9;
+}
+
+.catsAndTags {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	border-right: 1.5px solid black;
+}

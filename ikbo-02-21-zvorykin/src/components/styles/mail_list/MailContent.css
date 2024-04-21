@@ -1,0 +1,14 @@
+.mail-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height:100%;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.mail-content > * {
+	text-align: center;
+}

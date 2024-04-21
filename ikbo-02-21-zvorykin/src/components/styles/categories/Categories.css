@@ -1,0 +1,14 @@
+.title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1vh 0 0 1vh;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 30%;
+    border-bottom: 1.5px solid black;
+}

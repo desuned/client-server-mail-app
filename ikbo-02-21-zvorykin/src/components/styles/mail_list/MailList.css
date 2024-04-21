@@ -1,0 +1,24 @@
+.mail-list {
+	border-right: 1.5px solid black;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height:100%;
+}
+
+.mail-list > * {
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+.mail-list > *:hover {
+	background-color: rgb(209, 203, 203);
+}
+
+.mail-list > * > * {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
