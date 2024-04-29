@@ -4,7 +4,7 @@ import Categories from '../components/categories/Categories.jsx';
 import Tags from '../components/tags/Tags.jsx';
 import MailList from "../components/mail_list/MailList.jsx";
 import MailContent from "../components/mail_list/MailContent.jsx";
-import { list, baselist } from "../components/mail_list/MailList.jsx";
+import { list, baselist } from "../database/mail-list.jsx";
 import {useParams }  from "react-router-dom";
 
 function Main() {

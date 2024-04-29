@@ -1,6 +1,6 @@
 import React from 'react';
 import Category from './Category.jsx';
-import '../styles/categories/Categories.css';
+import '../../styles/categories/Categories.css';
 
 function Categories(props) {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/mail_list/MailContent.css"
+import "../../styles/mail_list/MailContent.css"
 
 function MailContent(props) {
     return (

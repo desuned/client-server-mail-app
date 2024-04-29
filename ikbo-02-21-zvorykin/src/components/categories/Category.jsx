@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/categories/Category.css';
+import '../../styles/categories/Category.css';
 
 function Category(props) {
     return (
