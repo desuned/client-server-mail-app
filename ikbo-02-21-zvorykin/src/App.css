@@ -44,9 +44,9 @@ body {
 	flex: 9;
 }
 
-.catsAndTags {
+.categories-and-tags {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	border-right: 1.5px solid black;
+	border-right: 1.5px solid rgb(62, 62, 62);
 }

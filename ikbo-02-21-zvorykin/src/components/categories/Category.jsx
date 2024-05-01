@@ -4,8 +4,8 @@ import '../../styles/categories/Category.css';
 function Category(props) {
     return (
         <div className='category'>
-            <img src={props.src}></img>
-            <li className='categoryText'>{props.name}</li>
+            <img alt="" src={props.src}></img>
+            <li className='category-text'>{props.name}</li>
         </div>
     );
 }

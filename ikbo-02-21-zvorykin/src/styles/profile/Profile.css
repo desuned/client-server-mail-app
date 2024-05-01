@@ -1,0 +1,105 @@
+.main-profile {
+    margin-top: 5%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:50%;
+}
+
+.title-profile {
+    display: flex;
+    width:50%;
+    justify-content: center;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.img-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    flex: 2;
+    border-radius: 50%;
+}
+
+.img-profile > img {
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.form-profile {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    flex:2;
+}
+
+.name-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-profile > input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.surname-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.surname-profile > input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.nickname-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.nickname-profile > input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.birthday-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.birthday-profile > input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.sex-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.sex-profile > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.sex:nth-child(2) {
+    margin-left: 20px;
+}

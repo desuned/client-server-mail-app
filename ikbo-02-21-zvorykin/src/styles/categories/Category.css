@@ -1,15 +1,23 @@
 .category {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style-type: none;
-    font-size: 15px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 1vh 0 0 1vh;
 }
-.categoryText {
+
+.category:hover {
+    scale:1.05;
+    margin-left: 5px;
+}
+
+.category-text {
     padding-left: 1vh;
 }
+
+
 img {
     width: 20px;
     height: 20px;

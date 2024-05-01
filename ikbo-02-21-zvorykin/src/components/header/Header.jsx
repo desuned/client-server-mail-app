@@ -12,12 +12,6 @@ function Header() {
                 <Link to="/profile/">Профиль</Link>
             </li>
             <li className="headerElement">
-                <Link to="/calender/">Календарь</Link>
-            </li>
-            <li className="headerElement">
-                <Link to="/savedfiles/">Сохраненные файлы</Link>
-            </li>
-            <li className="headerElement">
                 <Link to="/about/">О нас</Link>
             </li>           
         </ul>

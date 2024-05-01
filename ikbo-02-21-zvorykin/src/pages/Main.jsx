@@ -10,12 +10,12 @@ import {useParams }  from "react-router-dom";
 function Main() {
 	const {id} = useParams();
 	console.log(id);
-	if (id == undefined) {
+	if (id === undefined) {
 		return (
 			<div className="App">
 			<Header></Header>
 			<div className="mainInterface">
-				<div className="catsAndTags">
+				<div className="categories-and-tags">
 					<Categories title="Папки"></Categories>
 					<Tags></Tags>
 				</div>
@@ -34,7 +34,7 @@ function Main() {
 			<div className="App">
 			<Header></Header>
 			<div className="mainInterface">
-				<div className="catsAndTags">
+				<div className="categories-and-tags">
 					<Categories title="Папки"></Categories>
 					<Tags></Tags>
 				</div>
