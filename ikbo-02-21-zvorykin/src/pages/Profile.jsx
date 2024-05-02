@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import '../styles/profile/Profile.css';
 import './jett.jpg'
+import AddButton from "../components/buttons/AddButton";
 
 function Profile() {
     return(
@@ -12,7 +13,7 @@ function Profile() {
                 <div className="user-profile">
                     <div className="img-profile">
                         <img src={require('./jett.jpg')} alter="image-profile"></img>
-                        <div>Изменить фото</div>
+                        <AddButton name="Изменить фото"></AddButton>
                     </div>
                     <form className="form-profile">
                         <div className="name-profile">

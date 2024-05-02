@@ -48,5 +48,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
+}
+
+.mail-list-container {
+	border-left:1.5px solid rgb(62, 62, 62);
 	border-right: 1.5px solid rgb(62, 62, 62);
 }

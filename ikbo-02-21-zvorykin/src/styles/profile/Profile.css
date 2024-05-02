@@ -46,6 +46,15 @@
     flex:2;
 }
 
+.form-profile > * {
+    margin-bottom: 20px;
+}
+
+.form-profile > div > i {
+    font-size: 13px;
+    color: rgb(85, 84, 84);
+}
+
 .name-profile {
     display: flex;
     flex-direction: column;

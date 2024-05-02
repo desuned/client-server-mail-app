@@ -4,17 +4,23 @@ import '../../styles/headers/Header.css';
 
 function Header() {
     return (
-        <ul className="headerList">
-            <li className="headerElement">
-                <Link to="/">Главная</Link>
-            </li>
-            <li className="headerElement">
-                <Link to="/profile/">Профиль</Link>
-            </li>
-            <li className="headerElement">
-                <Link to="/about/">О нас</Link>
-            </li>           
-        </ul>
+        <div>       
+            <ul className="headerList">
+                <li className="headerElement">
+                    <Link to="/">Главная</Link>
+                </li>
+                <li className="headerElement">
+                    <Link to="/profile/">Профиль</Link>
+                </li>
+                <li className="headerElement">
+                    <Link to="/about/">О нас</Link>
+                </li>           
+            </ul>
+        <div className="header-avatar">
+
+        </div>
+        </div>
+
     )
 }
 

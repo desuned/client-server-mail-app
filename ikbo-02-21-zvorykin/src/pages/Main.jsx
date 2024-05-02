@@ -1,11 +1,11 @@
 import React from "react";
 import Header from '../components/header/Header.jsx';
 import Categories from '../components/categories/Categories.jsx';
-import Tags from '../components/tags/Tags.jsx';
 import MailList from "../components/mail_list/MailList.jsx";
 import MailContent from "../components/mail_list/MailContent.jsx";
 import { list, baselist } from "../database/mail-list.jsx";
 import {useParams }  from "react-router-dom";
+import AddButton from "../components/buttons/AddButton.jsx";
 
 function Main() {
 	const {id} = useParams();
@@ -17,9 +17,9 @@ function Main() {
 			<div className="mainInterface">
 				<div className="categories-and-tags">
 					<Categories title="Папки"></Categories>
-					<Tags></Tags>
 				</div>
-				<div>
+				<div className="mail-list-container">
+					<AddButton name="+ Новое письмо"></AddButton>
 					<MailList/>
 				</div>
 				<div>
@@ -36,9 +36,9 @@ function Main() {
 			<div className="mainInterface">
 				<div className="categories-and-tags">
 					<Categories title="Папки"></Categories>
-					<Tags></Tags>
 				</div>
-				<div>
+				<div className="mail-list-container">
+					<AddButton name="+ Новое письмо"></AddButton>
 					<MailList/>
 				</div>
 				<div>
