@@ -9,8 +9,6 @@ function Categories(props) {
             <ul>
                 <Category src={require('../../images/send.png')} name="Отправленные"></Category>
                 <Category src={require('../../images/get.png')} name="Входящие"></Category>
-                <Category src={require('../../images/multi.png')} name="Рассылки"></Category>
-                <Category src={require('../../images/archive.png')} name="Архив"></Category>
                 <Category src={require('../../images/bucket.png')} name="Корзина"></Category>
             </ul>
         </div>

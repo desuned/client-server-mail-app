@@ -1,0 +1,65 @@
+.mail-send {
+    font-style:initial;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.mail-send-receiver {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.mail-send-receiver > i {
+    font-style: normal;
+}
+
+.mail-send-receiver > input{
+    margin-top: 5px;
+    width: 50%;
+}
+
+.mail-send-theme {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.mail-send-theme > i {
+    font-style: normal;
+}
+
+.mail-send-theme > input{
+    margin-top: 5px;
+    width: 50%;
+}
+
+.mail-send-text {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.mail-send-text > i {
+    font-style: normal;
+}
+
+.mail-send-text > input{
+    margin-top: 5px;
+    width: 95%;
+}
+.mail-send-buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.mail-send-buttons > * {
+	flex: 1;
+}

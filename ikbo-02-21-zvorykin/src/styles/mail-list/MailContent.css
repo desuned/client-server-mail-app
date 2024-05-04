@@ -1,0 +1,24 @@
+.mail-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height:100%;
+	font-size: 30px;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.mail-content-container1 {
+	margin-top: 10px;
+	margin-left: 10px; 
+}
+
+.mail-content-container1 > * {
+	margin-top: 10px;
+}
+
+.mail-content-theme {
+	font-size: 20px;
+	margin-top: -7px;
+}
+

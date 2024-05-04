@@ -6,8 +6,13 @@ export default function MailCard(props) {
     return (
         <Link to={path}>
             <div>
-                {props.name}
-                <b>{props.text}</b>
+                <div className="address-datetime-container">
+                    <div>Адрес получателя: {props.reciever}</div>
+                    <div>Адрес отправителя: {props.sender}</div>
+                    <div>Время получения: {props.datetime}</div>
+                    <div>Тема письма: {props.theme}</div>
+                    <div>Содержание: {props.text}</div>
+                </div>
             </div>
         </Link>
     )

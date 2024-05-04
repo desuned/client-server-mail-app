@@ -6,11 +6,10 @@
 }
 
 .mail-list > * {
-	border-top: 1px solid black;
 	text-decoration: none;
 	color: black;
-	padding: 5px;
 	min-height: 10vh;
+	border-bottom: 2px solid rgb(85, 84, 84);
 }
 
 .mail-list > *:hover {
@@ -21,8 +20,12 @@
 	display:flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 15px;
 }
 
-.mail-list > *:nth-last-child(1) {
-	border-bottom: 1px solid black;
+.mail-list {
+	border-left: 2px solid rgb(85, 84, 84);
+	border-right: 2px solid rgb(85, 84, 84);
 }

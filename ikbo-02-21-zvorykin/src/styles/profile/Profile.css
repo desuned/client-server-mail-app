@@ -1,20 +1,57 @@
 .main-profile {
+    display:flex;
+    flex-direction: row;
     margin-top: 5%;
+}
+
+.container-user-profile {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-self: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
-    width:50%;
-    height:50%;
+    height:100%;
+    flex:1;
+}
+
+.container-user-profile {
+    margin-left: 50px;
+}
+
+.user-profile > * {
+    margin-bottom: 28px;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    color: rgb(85, 84, 84);
+    font-size: 15px;
 }
 
 .title-profile {
     display: flex;
-    width:50%;
-    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
-.user-profile {
+.container-change-profile {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    flex:2;
+}
+
+.title-change-profile {
+    display: flex;
+    width:50%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.change-user-profile {
     display: flex;
     flex-direction:row;
     justify-content: left;
@@ -39,72 +76,72 @@
     border-radius: 50%;
 }
 
-.form-profile {
+.form-change-profile {
     display:flex;
     flex-direction: column;
     align-items: left;
     flex:2;
 }
 
-.form-profile > * {
+.form-change-profile > * {
     margin-bottom: 20px;
 }
 
-.form-profile > div > i {
+.form-change-profile > div > i {
     font-size: 13px;
     color: rgb(85, 84, 84);
 }
 
-.name-profile {
+.name-change-profile {
     display: flex;
     flex-direction: column;
 }
 
-.name-profile > input{
+.name-change-profile > input{
     width: 50%;
     height: 30px;
     border-radius: 10px;
 }
 
-.surname-profile {
+.surname-change-profile {
     display: flex;
     flex-direction: column;
 }
 
-.surname-profile > input{
+.surname-change-profile > input{
     width: 50%;
     height: 30px;
     border-radius: 10px;
 }
 
-.nickname-profile {
+.nickname-change-profile {
     display: flex;
     flex-direction: column;
 }
 
-.nickname-profile > input{
+.nickname-change-profile > input{
     width: 50%;
     height: 30px;
     border-radius: 10px;
 }
 
-.birthday-profile {
+.birthday-change-profile {
     display: flex;
     flex-direction: column;
 }
 
-.birthday-profile > input{
+.birthday-change-profile > input{
     width: 50%;
     height: 30px;
     border-radius: 10px;
 }
 
-.sex-profile {
+.sex-change-profile {
     display: flex;
     flex-direction: column;
 }
 
-.sex-profile > div {
+.sex-change-profile > div {
     display: flex;
     flex-direction: row;
 }
