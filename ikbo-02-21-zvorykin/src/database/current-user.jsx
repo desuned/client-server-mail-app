@@ -1,4 +1,4 @@
-export const currentuser = [
+export const user = 
     {
         name: "Глеб",
         surname: "Зворыкин",
@@ -6,6 +6,7 @@ export const currentuser = [
         address: "gleb2003@curs.ru",
         password: "1234qwerty",
         sex: "Мужской",
-        birthday: "20.10.2003"
+        birthday: "20.10.2003",
+        roles: ['user'],
+        rights: ['can_view_messages']
     }
-]

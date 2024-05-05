@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "../components/header/Header";
 import '../styles/profile/Profile.css';
-import './jett.jpg'
 import AddButton from "../components/buttons/AddButton";
-import { currentuser } from "../database/current-user";
+import { user } from "../database/current-user";
 
 function Profile() {
     return(
@@ -13,21 +12,17 @@ function Profile() {
                 <div className="container-user-profile">
                     <div className="title-profile">Личные данные</div>
                     <div className="user-profile">
-                        <div className="name-profile">Ваше имя: {currentuser[0].name}</div>
-                        <div className="surname-profile">Ваша фамилия: {currentuser[0].surname}</div>
-                        <div className="nickname-profile">Ваш никнейм: {currentuser[0].nickname}</div>
-                        <div className="address-profile">Ваш почтовый адрес: {currentuser[0].address}</div>
-                        <div className="sex-profile">Ваш пол: {currentuser[0].sex}</div>
-                        <div className="birthday-profiel">Ваша дата рождения: {currentuser[0].birthday}</div>
+                        <div className="name-profile">Ваше имя: {user.name}</div>
+                        <div className="surname-profile">Ваша фамилия: {user.surname}</div>
+                        <div className="nickname-profile">Ваш никнейм: {user.nickname}</div>
+                        <div className="address-profile">Ваш почтовый адрес: {user.address}</div>
+                        <div className="sex-profile">Ваш пол: {user.sex}</div>
+                        <div className="birthday-profiel">Ваша дата рождения: {user.birthday}</div>
                     </div>
                 </div>
                 <div className="container-change-profile">
                     <div className="title-change-profile">Изменить личные данные</div>
                     <div className="change-user-profile">
-                        <div className="img-profile">
-                            <img src={require('./jett.jpg')} alter="image-profile"></img>
-                            <AddButton name="Изменить фото"></AddButton>
-                        </div>
                         <form className="form-change-profile">
                             <div className="name-change-profile">
                                 <i>Имя</i>
