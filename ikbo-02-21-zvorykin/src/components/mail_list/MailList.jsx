@@ -1,6 +1,6 @@
 import React from "react";
 import MailCard from "./MailCard.jsx";
-import {list} from '../../database/mail-list.jsx'
+import {list} from '../../list/mail-list.jsx'
 import '../../styles/mail-list/MailList.css'
 
 export default function MailList() {

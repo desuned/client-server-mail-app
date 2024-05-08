@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import '../styles/profile/Profile.css';
 import AddButton from "../components/buttons/AddButton";
-import { user } from "../database/current-user";
+import { user } from "../list/current-user";
 
 function Profile() {
     return(
@@ -14,10 +14,10 @@ function Profile() {
                     <div className="user-profile">
                         <div className="name-profile">Ваше имя: {user.name}</div>
                         <div className="surname-profile">Ваша фамилия: {user.surname}</div>
-                        <div className="nickname-profile">Ваш никнейм: {user.nickname}</div>
+                        {/* <div className="nickname-profile">Ваш никнейм: {user.nickname}</div> */}
                         <div className="address-profile">Ваш почтовый адрес: {user.address}</div>
-                        <div className="sex-profile">Ваш пол: {user.sex}</div>
-                        <div className="birthday-profiel">Ваша дата рождения: {user.birthday}</div>
+                        {/* <div className="sex-profile">Ваш пол: {user.sex}</div>
+                        <div className="birthday-profiel">Ваша дата рождения: {user.birthday}</div> */}
                     </div>
                 </div>
                 <div className="container-change-profile">
@@ -26,21 +26,21 @@ function Profile() {
                         <form className="form-change-profile">
                             <div className="name-change-profile">
                                 <i>Имя</i>
-                                <input type="text" size="20" placeholder="Ваше имя" required></input>
+                                <input type="text" size="20" placeholder=" Ваше имя" required></input>
                             </div>
                             <div className="surname-change-profile">
                                 <i>Фамилия</i>
-                                <input type="text" size="20" placeholder="Ваша фамилия" required></input>
+                                <input type="text" size="20" placeholder=" Ваша фамилия" required></input>
                             </div>
-                            <div className="nickname-change-profile">
+                            {/* <div className="nickname-change-profile">
                                 <i>Никнейм</i>
                                 <input type="text" size="20" placeholder="Никнейм" required></input>
                             </div>
                             <div className="birthday-change-profile">
                                 <i>День рождения</i>
                                 <input type="text" size="20" placeholder="20.10.2003" required></input>
-                            </div>
-                            <div className="sex-change-profile">
+                            </div> */}
+                            {/* <div className="sex-change-profile">
                                 <i>Ваш пол</i>
                                 <div>
                                     <div className="sex">
@@ -52,13 +52,17 @@ function Profile() {
                                         <i>Женский</i>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="submit-profile">
                                 <input type="submit" value="Отправить"/>
                             </div>
                         </form>
                     </div> 
                 </div>
+                <div className="container-delete-profile">
+                    <div className="title-delete-profile">Удаление аккаунт</div>
+                    <AddButton name="Удалить"></AddButton>
+                </div>   
             </div>
             
         </div>

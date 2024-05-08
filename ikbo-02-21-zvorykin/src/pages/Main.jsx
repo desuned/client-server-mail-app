@@ -5,7 +5,7 @@ import MailList from "../components/mail_list/MailList.jsx";
 import MailContent from "../components/mail_list/MailContent.jsx";
 import AddButton from "../components/buttons/AddButton.jsx";
 import '../styles/mail-send/MailSend.css'
-import { list, baselist } from "../database/mail-list.jsx";
+import { list, baselist } from "../list/mail-list.jsx"
 import {useParams }  from "react-router-dom";
 
 function Main() {
